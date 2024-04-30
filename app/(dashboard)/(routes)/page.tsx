@@ -1,12 +1,11 @@
 import { UserButton } from "@clerk/nextjs";
 
-export default function Home() {
+export default function Page() {
   return (
-   <div>
-    <UserButton
-      afterSignOutUrl="/"
-    />
-    <p>Wilfred mugacha</p>
-   </div>
-  )
+    <div>
+      <UserButton
+        afterSignOutUrl="/"
+      />
+    </div>
+  );
 }
